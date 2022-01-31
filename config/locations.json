@@ -61,13 +61,17 @@
   "verticalsToConfig": {
     "locations": { // The vertical key from your search configuration
       "label": "Map", // The name of the vertical in the section header and the navigation bar
-      "verticalLimit": 15, // The result count limit for vertical search
-      "universalLimit": 5, // The result count limit for universal search
+      "verticalLimit": 12, // The result count limit for vertical search
+      "universalLimit": 6, // The result count limit for universal search
       "cardType": "location-standard", // The name of the card to use - e.g. accordion, location, customcard 
       "icon": "pin", // The icon to use on the card for this vertical
       "mapConfig": {
         "enablePinClustering": true, // Cluster pins on the map that are close together. Defaults false
         "mapProvider": "Google", // The name of the provider (e.g. Mapbox, Google)
+         "providerOptions": {
+            "styles": "satellite",
+            "scrollWheel": true,
+            },
         "noResults": {
           "displayAllResults": false // Set to FALSE to hide results on the map when a search returns no results
         },

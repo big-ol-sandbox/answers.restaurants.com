@@ -1,9 +1,143 @@
 .Answers
 {
-  // insert Answers scss here e.g.
-  //&-nav {
-  //  padding-top: 32px;
-  //}
+  //Headers
+.HitchhikerResultsStandard-title {
+    font-family: var(--yxt-font-family);
+    font-size: var(--yxt-font-size-md-lg);
+    line-height: var(--yxt-line-height-lg);
+    font-weight: var(--yxt-font-weight-bold);
+    font-style: normal;
+    color: var(--hh-universal-section-title-text-color);
+    margin: 0;
+    border: var(--yxt-border-default);
+    border-top-left-radius: var(--yxt-border-radius);
+    border-top-right-radius: var(--yxt-border-radius);
+    display: flex;
+    padding: calc(var(--yxt-base-spacing) / 2) var(--yxt-base-spacing);
+    align-items: flex-end;
+    background-color: var(--yxt-color-brand-primary);
+}
+.HitchhikerResultsStandard-titleLabel {
+    font-family: var(--yxt-font-family);
+    font-size: var(--yxt-font-size-xlg);
+    line-height: var(--yxt-line-height-lg);
+    font-weight: var(--yxt-font-weight-bold);
+    font-style: normal;
+    color: white;
+}
+.HitchhikerResultsStandard-title svg, .HitchhikerResultsStandard-title img {
+    color: white;
+    height: var(--yxt-base-spacing);
+    width: var(--yxt-base-spacing);
+}
+//CTAs
+.HitchhikerCTA  {
+    color: white;
+    background: var(--yxt-color-brand-primary);
+    padding: .5rem .5rem;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    text-transform: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    &:hover {
+        background: var(--yxt-color-brand-hover);
+        color: white;
+        text-decoration: none;
+        text-transform: none;
+        border-color: var(--yxt-color-brand-primary);
+    }
+}
+
+//Q&A
+.yxt-QuestionSubmission-titleBar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: calc(var(--yxt-base-spacing)/2) var(--yxt-base-spacing);
+    background-color: var(--yxt-color-brand-primary);
+    border: 0;
+    border-bottom: var(--yxt-question-submission-border);
+    cursor: pointer;
+}
+.yxt-QuestionSubmission-title {
+    font-family: var(--yxt-font-family);
+    font-size: var(--yxt-font-size-xlg);
+    line-height: var(--yxt-line-height-lg);
+    font-weight: var(--yxt-font-weight-bold);
+    font-style: normal;
+    color: white;
+}
+.yxt-QuestionSubmission-titleDescription {
+    font-family: var(--yxt-font-family);
+    font-size: var(--yxt-question-submission-description-font-size);
+    line-height: var(--yxt-question-submission-description-line-height);
+    font-weight: var(--yxt-font-weight-normal);
+    font-style: normal;
+    color: white;
+    margin-right: calc(var(--yxt-base-spacing)/2);
+    /* font-style: italic; */
+}
+.yxt-QuestionSubmission-titleIconWrapper, .yxt-QuestionSubmission-toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    color: white;
+    background: none;
+    border: none;
+}
+.yxt-QuestionSubmission-submitButton:not(:disabled) {
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    border: 1px solid white;
+    border-radius: 5px;
+    &:hover {
+      border: 1px solid var(--yxt-color-brand-primary);
+    }
+}
+
+//ViewMore
+.HitchhikerResultsStandard-viewMore {
+    background: white;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0px;
+}
+.HitchhikerResultsStandard-viewMoreLink {
+    width: 100%;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: var(--yxt-color-brand-primary);
+}
+.HitchhikerResultsStandard-viewMoreLabel {
+    margin-right: calc(var(--yxt-base-spacing) / 2);
+    font-family: var(--yxt-font-family);
+    font-size: var(--yxt-font-size-xlg);
+    line-height: var(--yxt-line-height-lg);
+    font-weight: var(--yxt-font-weight-bold);
+    font-style: normal;
+}
+.HitchhikerResultsStandard-viewMore svg, .HitchhikerResultsStandard-viewMore img {
+    display: none;
+}
+.HitchhikerResultsStandard-viewMore:hover {
+    background: #cdcdcd;
+}
+
+
+
+
+
+
 }
 
 .Overlay
