@@ -63,7 +63,7 @@
       "label": "Map", // The name of the vertical in the section header and the navigation bar
       "verticalLimit": 12, // The result count limit for vertical search
       "universalLimit": 6, // The result count limit for universal search
-      "cardType": "location-standard", // The name of the card to use - e.g. accordion, location, customcard 
+      "cardType": "locations-custom", // The name of the card to use - e.g. accordion, location, customcard 
       "icon": "pin", // The icon to use on the card for this vertical
       "mapConfig": {
         "enablePinClustering": true, // Cluster pins on the map that are close together. Defaults false

@@ -48,6 +48,10 @@
         border-color: var(--yxt-color-brand-primary);
     }
 }
+.HitchhikerLocationStandard-primaryCTA, .HitchhikerLocationStandard-secondaryCTA, .HitchhikerLocationStandard-tertiaryCTA {
+    display: flex;
+    margin-top: calc(var(--hh-location-standard-base-spacing) / 2);
+}
 
 //Q&A
 .yxt-QuestionSubmission-titleBar {
